@@ -1,15 +1,15 @@
 Summary:	Publican documentation template files for JBoss
 Summary(pl.UTF-8):	Pliki szablonów dokumentacji Publicana dla projektu JBoss
 Name:		publican-jboss
-Version:	2.8
+Version:	3.1
 Release:	1
 License:	CC-BY-SA
 Group:		Development/Tools
 Source0:	https://fedorahosted.org/releases/p/u/publican/%{name}-%{version}.tgz
-# Source0-md5:	3575a5504740794a94dfb69cd8d6d5b2
+# Source0-md5:	acdb655c00e10ee7bc05ea0fd4e91c51
 URL:		https://publican.fedorahosted.org/
-BuildRequires:	publican >= 2.5
-Requires:	publican >= 2.5
+BuildRequires:	publican >= 3.0
+Requires:	publican >= 3.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
